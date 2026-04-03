@@ -46,7 +46,7 @@ export const Git = ({ className }: { className?: string }) => {
   const canCommit = staged.size > 0 || unstaged.size > 0 || untracked.size > 0;
 
   useEffect(() => {
-    //项目切换的时候重置git文件状态12
+    //项目切换的时候重置git文件状态124
     useGitFileStore.getState().reset();
     useGitFolderStore.getState().reset();
   }, [projectId]);
