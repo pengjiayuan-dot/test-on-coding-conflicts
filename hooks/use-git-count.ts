@@ -1,5 +1,5 @@
 export const useGitCount = () => {
     //todo @pengjiayuan-dot
     //calculate git file counts
-    return 40;
+    return 400;
 }
